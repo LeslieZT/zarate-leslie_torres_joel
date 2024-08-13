@@ -31,3 +31,18 @@ APELLIDO VARCHAR(50) NOT NULL,
 [2024-08-12 19:58:43] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
 [2024-08-12 19:58:43] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
 [2024-08-12 19:58:44] [ INFO ] [DaoH2Odontologo:92] odontologos -> [Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}, Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}, Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}]
+[2024-08-12 20:36:06] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 20:36:06] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 20:36:06] [ INFO ] [DaoH2Odontologo:92] odontologos -> [Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}, Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}, Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}]
+[2024-08-12 20:36:52] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id='1', numeroMatricula='ODO-0010', nombre='Marta', apellido='Perez'}
+[2024-08-12 20:36:52] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id='2', numeroMatricula='ODO-0011', nombre='Mario', apellido='Torres'}
+[2024-08-12 20:37:05] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 20:37:05] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 20:37:05] [ INFO ] [DaoH2Odontologo:92] odontologos -> [Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}, Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}, Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}]
+[2024-08-12 20:37:05] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id='1', numeroMatricula='ODO-0010', nombre='Marta', apellido='Perez'}
+[2024-08-12 20:37:05] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id='2', numeroMatricula='ODO-0011', nombre='Mario', apellido='Torres'}
+[2024-08-12 20:37:35] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 20:37:35] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 20:37:35] [ INFO ] [DaoH2Odontologo:92] odontologos -> [Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}, Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}, Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}]
+[2024-08-12 20:37:35] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id='1', numeroMatricula='ODO-0010', nombre='Marta', apellido='Perez'}
+[2024-08-12 20:37:35] [ INFO ] [DaoEnMemoria:18] odontologo guardado en memoria Odontologo{id='2', numeroMatricula='ODO-0011', nombre='Mario', apellido='Torres'}
