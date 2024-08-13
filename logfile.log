@@ -1,0 +1,33 @@
+[2024-08-12 19:55:00] [ ERROR] [OdontologoServiceTest:30] Error de Sintaxis en sentencia SQL "\000a\000aCREATE TABLE ODONTOLOGOS (\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aNUMERO_MATRICULA VARCHAR(10) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aAPELLIDO VARCHAR(50) NOT NULL,\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000a\000aCREATE TABLE ODONTOLOGOS (\000aID INT AUTO_INCREMENT PRIMARY KEY,\000aNUMERO_MATRICULA VARCHAR(10) NOT NULL,\000aNOMBRE VARCHAR(50) NOT NULL,\000aAPELLIDO VARCHAR(50) NOT NULL,\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS (
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NUMERO_MATRICULA VARCHAR(10) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-222]
+[2024-08-12 19:56:09] [ INFO ] [DaoH2Odontologo:35] odontologo Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:56:09] [ INFO ] [DaoH2Odontologo:35] odontologo Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:56:09] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}
+[2024-08-12 19:56:09] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:56:09] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:56:55] [ INFO ] [DaoH2Odontologo:35] odontologo Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:56:55] [ INFO ] [DaoH2Odontologo:35] odontologo Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:56:55] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}
+[2024-08-12 19:56:55] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:56:55] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:57:41] [ INFO ] [DaoH2Odontologo:35] odontologo guardadoOdontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:57:41] [ INFO ] [DaoH2Odontologo:35] odontologo guardadoOdontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:57:41] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}
+[2024-08-12 19:57:41] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:57:41] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:57:52] [ INFO ] [DaoH2Odontologo:35] odontologo guardado Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:57:52] [ INFO ] [DaoH2Odontologo:35] odontologo guardado Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:57:52] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}
+[2024-08-12 19:57:52] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:57:52] [ INFO ] [DaoH2Odontologo:81] odontologo Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:58:43] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}
+[2024-08-12 19:58:43] [ INFO ] [DaoH2Odontologo:35] odontologo guardado -> Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}
+[2024-08-12 19:58:44] [ INFO ] [DaoH2Odontologo:92] odontologos -> [Odontologo{id='1', numeroMatricula='ODO-0001', nombre='Juan', apellido='Lopez'}, Odontologo{id='2', numeroMatricula='ODO-0002', nombre='Maria', apellido='Perez'}, Odontologo{id='3', numeroMatricula='ODO-0003', nombre='Carlos', apellido='Torres'}]
